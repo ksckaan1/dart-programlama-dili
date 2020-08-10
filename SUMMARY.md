@@ -10,4 +10,5 @@
 * [VSCode Dart Eklentisi Kurulumu](boeluem-1/vscode-dart-eklentisi-kurulumu.md)
 * [Merhaba Dünya](boeluem-1/merhaba-duenya.md)
 * [Yorum Satırı](boeluem-1/yorum-satiri.md)
+* [Veri Tipleri](boeluem-1/veri-tipleri.md)
 
