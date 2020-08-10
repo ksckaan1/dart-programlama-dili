@@ -2,7 +2,7 @@
 
 
 
-![Image by Google](.gitbook/assets/dart-logo-for-shares.png)
+![](.gitbook/assets/dart-logo-for-shares.png)
 
 | Platform | Id |
 | :--- | :--- |
