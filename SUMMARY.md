@@ -16,4 +16,5 @@
 * [Mantıksal Operatörler](boeluem-1/mantiksal-operatoerler.md)
 * [Atama Operatörleri](boeluem-1/atama-operatoerleri.md)
 * [Sabitler](boeluem-1/sabitler.md)
+* [Tür Dönüşümü](boeluem-1/tuer-doenuesuemue.md)
 
