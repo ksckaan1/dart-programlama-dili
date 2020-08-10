@@ -1,41 +1,13 @@
-# Dart Hakkında
+# Dart Programlama Dili
 
-Dart, **Google** tarafından geliştirilen **ECMA** tarafından standart haline getirilen genel amaçlı bir programlama dilidir.
 
-Dart dili kullanılarak çapraz-platform web, sunucu, masaüstü, CLI, mobil ve IoT uygulamalar gelitirilebilir.
 
-**Lars Bak** ve **Kasper Lund** tarafından **14 Kasım 2013** tarihinde tasarlanmıştır.
+![Image by Google](.gitbook/assets/dart-logo-for-shares.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/small.jpg" alt="Lars Bak" />
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>
-          <img src=".gitbook/assets/speakers_web4.jpg" alt/>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Lars Bak</td>
-      <td style="text-align:left">Kasper Lund</td>
-    </tr>
-  </tbody>
-</table>
-
-Dosya uzantısı `.dart` şeklindedir.
-
-**dart2js** ile JavaScript koduna çevrilebilir ve **dart2native** ile native uygulama olarak derlenebilir.
+| Platform | Id |
+| :--- | :--- |
+| ![](.gitbook/assets/twitter.png) Twitter | [@ksckaan1](https://twitter.com/ksckaan1) |
+| ![](.gitbook/assets/instagram-sketched.png) Instagram | [@ksckaan1](https://instagram.com/ksckaan1) |
+| ![](.gitbook/assets/telegram.png) Telegram | [@ksckaan1](https://t.me/ksckaan1) |
+| ![](.gitbook/assets/github-image.png) Github | [@ksckaan1](https://github.com/ksckaan1) |
 
