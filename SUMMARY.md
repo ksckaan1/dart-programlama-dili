@@ -18,3 +18,7 @@
 * [Sabitler](boeluem-1/sabitler.md)
 * [Tür Dönüşümü](boeluem-1/tuer-doenuesuemue.md)
 
+## BÖLÜM 2 \(İşlem Yapma\)
+
+* [Fonksiyonlar](boeluem-2-islem-yapma/fonksiyonlar.md)
+
