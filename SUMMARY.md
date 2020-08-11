@@ -21,4 +21,5 @@
 ## BÖLÜM 2 \(İşlem Yapma\)
 
 * [Fonksiyonlar](boeluem-2-islem-yapma/fonksiyonlar.md)
+* [Arrow Fonksiyonlar](boeluem-2-islem-yapma/arrow-fonksiyonlar.md)
 
