@@ -96,3 +96,127 @@ isimler.clear();
 print(isimler); // []
 ```
 
+## fillRange
+
+Belirlediğimiz index aralığını `null` ile doldurur. **Null** belirlenmemiş veri tipidir. Yani boştur.
+
+```dart
+ List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+ isimler.fillRange(1, 3);
+ print(isimler); //[Kaan, null, null, Emir]
+```
+
+## getRange
+
+Belirlediğimiz aralığı verir.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+print(isimler.getRange(1, 3)); // (Erkay, Altan)
+```
+
+## indexOf
+
+Yazılan nesnenin indexini verir.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+print(isimler.indexOf("Altan")); // 2
+```
+
+## insert
+
+Belirlenen indexe eleman ekleme.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+print(isimler); // [Kaan, Erkay, Altan, Emir]
+isimler.insert(2, "Ali");
+print(isimler); // [Kaan, Erkay, Ali, Altan, Emir]
+```
+
+## insertAll
+
+Belirlenen indexe `List` ekleme.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+List isimlerYeni = ["Ali", "Mehmet", "Ahmet"];
+print(isimler); // [Kaan, Erkay, Altan, Emir]
+isimler.insertAll(2, isimlerYeni);
+print(isimler);
+// [Kaan, Erkay, Ali, Mehmet, Ahmet, Altan, Emir]
+```
+
+## lastIndexOf
+
+Aramaya sondan başlayarak yazılan elemanın indexini verir.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Kaan", "Emir"];
+print(isimler.lastIndexOf("Kaan")); // 2
+```
+
+## remove
+
+Yazılan elemanı kaldırır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+  isimler.remove("Altan");
+  print(isimler); // [Kaan, Erkay, Emir]
+```
+
+## removeAt
+
+Belirtilen indexteki elemanı kaldırır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.removeAt(1);
+print(isimler); // [Kaan, Altan, Emir]
+```
+
+## removeLast
+
+`List`'in son elemanını kaldırır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.removeLast();
+print(isimler); // [Kaan, Erkay, Altan]
+```
+
+## removeRange
+
+Belirlenen aralığı kaldırır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.removeRange(1, 3);
+print(isimler); // [Kaan, Emir]
+```
+
+## replaceRange
+
+Belirtilen aralığı değiştirir.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.replaceRange(1, 3, ["Ahmet", "Merhmet"]);
+print(isimler); // [Kaan, Ahmet, Merhmet, Emir]
+```
+
+## setAll
+
+Belirtilen indexten itibare belirtilen `List` elemanlarının atanması.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+List isimlerYeni = ["İsmail", "Ahmet", "Ali", "Gökhan"];
+isimler.setAll(0, isimlerYeni);
+print(isimler); // [İsmail, Ahmet, Ali, Gökhan]
+```
+
+
+
