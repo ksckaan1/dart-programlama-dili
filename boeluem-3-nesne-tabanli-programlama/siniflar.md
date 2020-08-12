@@ -111,3 +111,30 @@ main() {
 
 `kisi1` adında insan nesnesi oluştururken yapıcı fonksiyona sadece `isim` ve `kilo` değerlerini yolladık. `yas` değişkeninin değeri yapıcı fonksiyonda varsayılan değer aldı.
 
+## İsimlendirilmiş Yapıcılar
+
+Eğer sınıfımıza birden fazla yapıcı eklemek istiyorsak isimlendirilmiş yapıcıları kullanırız. Örnek:
+
+```dart
+class insan {
+  String isim;
+  int yas;
+  double kilo;
+  insan(this.isim, this.yas, this.kilo);
+
+  insan.bos() {
+    this.isim = "Boş";
+    this.yas = 0;
+    this.kilo = 0;
+  }
+}
+
+main() {
+  insan kisi1 = new insan.bos();
+}
+```
+
+`insan` sınıfımız hem `insan` adlı yapıcı fonksiyona sahip, hem de `insan.bos` adında isimlendirilmiş yapıcı fonksiyona sahip. `insan.bos` yapıcı fonksiyonumuz `insan` sınıfından üretilen nesnede kullanıldığında değişkenlere boş bilgiler giriyor.
+
+`main` fonksiyonumuzda nesne üretimini gözlemlediğimizde, nesnenin `insan.bos()` yapıcı fonksiyonu ile üretildiğini görüyoruz.
+
