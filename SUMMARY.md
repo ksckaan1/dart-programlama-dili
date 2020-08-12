@@ -28,6 +28,5 @@
 
 ## BÖLÜM 3 \(NESNE TABANLI PROGRAMLAMA\)
 
-* [Untitled](boeluem-3-nesne-tabanli-programlama/untitled/README.md)
-  * [Untitled](boeluem-3-nesne-tabanli-programlama/untitled/untitled.md)
+* [Sınıflar](boeluem-3-nesne-tabanli-programlama/untitled.md)
 

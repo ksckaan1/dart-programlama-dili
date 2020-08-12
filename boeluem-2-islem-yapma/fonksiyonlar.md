@@ -105,3 +105,34 @@ int topla(int a, b) {
 
 `b`'nin tipini yazmadık, çünkü tipini bir önceki parametrenin tipi olarak belirlendi.
 
+## Varsayılan Fonksiyon Parametreleri
+
+Fonksiyondaki parametrelere girilmemesi dahilinde otomatik değer atanabilir. Örneğimiz;
+
+```dart
+int carp(int a, [int b = 2]) {
+  return a * b;
+}
+
+main() {
+  print(carp(5)); //10
+  print(carp(5, 3)); //15
+}
+```
+
+`carp` fonksiyonunu incelediğimizde, `a` adında `interger` tipinde bir parametre oluşturduk. Köşeli parantez içerisine `b` değişkeni tanımladık ve `2` değerini verdik. Yani `b` parametresinin girilmemesi durumunda `b` parametremizin değeri `2` olacaktır.
+
+## Belirli Parametreyi Girme
+
+```dart
+int carp({int a, b}) {
+  return a * b;
+}
+
+main() {
+  print(carp(a: 5, b: 4));
+}
+```
+
+`carp` fonksiyonunun parametrelerini tanımlıyorken, parantez içerisine ayrıca süslü parantez koyduğumuza dikkat çekmek isterim. Böyle fonksiyon başka bir yerden çağrılırken, tıpkı `map` kullanımındaki gibi değer yollayacağımız parametreyi de belirtiriz. 
+
