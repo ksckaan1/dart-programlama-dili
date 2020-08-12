@@ -209,7 +209,7 @@ print(isimler); // [Kaan, Ahmet, Merhmet, Emir]
 
 ## setAll
 
-Belirtilen indexten itibare belirtilen `List` elemanlarının atanması.
+Belirtilen indexten itibaren belirtilen `List` elemanlarının atanması.
 
 ```dart
 List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
@@ -218,5 +218,42 @@ isimler.setAll(0, isimlerYeni);
 print(isimler); // [İsmail, Ahmet, Ali, Gökhan]
 ```
 
+## setRange
 
+Belirtilen aralığa atama.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.setRange(1, 3, ["İsmail", "Ali"]);
+print(isimler); // [Kaan, İsmail, Ali, Emir]
+```
+
+## shuffle
+
+`List`'i rastgele olarak karıştırır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.shuffle();
+print(isimler); // [Emir, Erkay, Altan, Kaan]
+```
+
+## sort
+
+List'i veri tipine göre sıralar.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+isimler.sort();
+print(isimler); // [Altan, Emir, Erkay, Kaan]
+```
+
+## sublist
+
+`List`'i verilen indexten başlatır.
+
+```dart
+List isimler = ["Kaan", "Erkay", "Altan", "Emir"];
+print(isimler.sublist(2)); // [Altan, Emir]
+```
 
