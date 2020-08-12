@@ -1,4 +1,4 @@
-# Get ve Set
+# Get ve Set Fonksiyonları
 
 `Get` ve `Set` değişkenler üzerinde işlem yapabilmemizi sağlayan basit fonksiyonlardır. **Get** fonksiyonumuz değer döndürür. **Set** fonksiyonumuz da değer atar.
 
