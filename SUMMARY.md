@@ -24,4 +24,5 @@
 * [Arrow Fonksiyonlar](boeluem-2-islem-yapma/arrow-fonksiyonlar.md)
 * [Döngüler](boeluem-2-islem-yapma/doengueler.md)
 * [If - Else](boeluem-2-islem-yapma/if-else.md)
+* [Switch - Case](boeluem-2-islem-yapma/switch-case.md)
 
