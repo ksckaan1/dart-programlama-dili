@@ -18,6 +18,7 @@
 * [Sabitler](boeluem-1/sabitler.md)
 * [Tür Dönüşümü](boeluem-1/tuer-doenuesuemue.md)
 * [List](boeluem-1/list.md)
+* [Map](boeluem-1/map.md)
 
 ## BÖLÜM 2 \(İşlem Yapma\)
 
