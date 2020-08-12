@@ -63,3 +63,14 @@ Parametreler içerisine `isim`, `yas` ve `kilo` isminde parametreler aldık. Bu 
 
 Daha sonra `kendiniTanit` fonksiyonu oluşturarak `calisan` sınıfına ait bilgileri ekrana yazdırmasını sağlayan bir fonksiyon oluşturduk.
 
+### Kalıtım İşleminde İsimli Yapıcı Fonksiyon Kullanma
+
+Nasıl yazacağımızı görelim:
+
+```dart
+class calisan extends insan {
+  calisan() : super.bos();
+  // ···
+}
+```
+

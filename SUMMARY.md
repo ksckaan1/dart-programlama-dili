@@ -32,4 +32,5 @@
 * [Sınıflar](boeluem-3-nesne-tabanli-programlama/siniflar.md)
 * [Sınıf-içi Fonksiyonlar](boeluem-3-nesne-tabanli-programlama/sinif-ici-fonksiyonlar.md)
 * [Sınıflarda Kalıtım \(Inheritance\)](boeluem-3-nesne-tabanli-programlama/siniflarda-kalitim-inheritance.md)
+* [Static](boeluem-3-nesne-tabanli-programlama/static.md)
 
