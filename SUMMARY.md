@@ -29,4 +29,5 @@
 ## BÖLÜM 3 \(NESNE TABANLI PROGRAMLAMA\)
 
 * [Sınıflar](boeluem-3-nesne-tabanli-programlama/untitled.md)
+* [Sınıf-içi Fonksiyonlar](boeluem-3-nesne-tabanli-programlama/sinif-ici-fonksiyonlar.md)
 
