@@ -24,14 +24,20 @@ main() {
 }
 ```
 
-Yukarıdaki kodları incelediğimizde;  
+Yukarıdaki kodları incelediğimizde;
+
+{% hint style="info" %}
+Farkettiyseniz **kisi1** nesnesini oluşturuyorken **new** terimini kullanmadık. Bu terim **Dart 2.2** beri zorunlu değildir.
+{% endhint %}
+
+  
 `insan` sınıfımızın içinde `String get isim` ile **String** tipinde değer döndüren bir fonksiyon oluşturduk. Bu fonksiyonumuz **get** fonksiyonu olduğu için parametreler için paranteze sahip olmayacaktır. **get** fonksiyonumuz `kisiIsim` değerini döndürüyor.
 
 **set** fonksiyonumuz ise `void`'tir. Çünkü bir değer döndürmez. **get** ve **set** fonksiyonlarının isimleri aynı olmak zorundadır. **set** fonksiyonu atama işlemi yapacağı için parametre alır.
 
 `main` fonksiyonuna baktığımızda, `kisi1` adında `insan` nesnesi örneği oluşturduk. `print` fonksiyonu içerisinde `kisi1.isim` yazarak **get** işlemi yaptık. Hemen aşağısında `kisi1.isim = "Erkay";` yazarak **set** işlemi yaptık.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Set işlemi yapılırken parametre parantezi açılmaz. Değer atama şeklinde yapılır.
 {% endhint %}
 
