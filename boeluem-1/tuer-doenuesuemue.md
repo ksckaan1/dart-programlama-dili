@@ -17,3 +17,13 @@ int sayi2 = sayi1.toInt();
 `toDouble()` : Double'a dönüştürme
 {% endhint %}
 
+Bir değişkenin veya sabitin veri tipini öğrenmek için `runtimeType` fonksiyonunu kullanabiliriz.
+
+```dart
+main() {
+  int i = 5;
+
+  print(i.runtimeType); //int
+}
+```
+
